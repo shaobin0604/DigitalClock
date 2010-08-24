@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="time_font_size">96.0px</dimen>
+    <dimen name="time_pos_y">104.0px</dimen>
+    <dimen name="date_font_size">26.0px</dimen>
+    <dimen name="date_pos_y">126.0px</dimen>
+    <dimen name="ampm_canvas_pos_y">34.0px</dimen>
+    <dimen name="ampm_canvas_pos_x">2.0px</dimen>
+    <dimen name="ampm_font_size">20.0px</dimen>
+    <dimen name="canvas_width">240.0px</dimen>
+    <dimen name="canvas_height">150.0px</dimen>
+</resources>

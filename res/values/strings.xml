@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Digital Clock</string>
+    
+    <string name="time_font_name">font/SoMARoman.ttf</string>
+    <string name="setting_uri">content://settings/system</string>
+    <string name="dclock_app_name_txt">Digital Clock</string>
+    <string name="dclock_widget_name_txt">Digital Clock</string>
+    <string name="dclock_am_txt">AM</string>
+    <string name="dclock_pm_txt">PM</string>
+</resources>

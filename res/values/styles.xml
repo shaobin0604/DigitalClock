@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/widget_bg</item>
+    </style>
+    <style name="WidgetBackgroundTransparent">
+        <item name="android:background">@drawable/bg_transparent</item>
+    </style>
+    <style name="Text" />
+    <style name="Text.Time" parent="@style/Text">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Text.Date" parent="@style/Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
