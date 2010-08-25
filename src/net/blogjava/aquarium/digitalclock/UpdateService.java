@@ -119,7 +119,7 @@ public class UpdateService extends Service {
 		final int canvasHeight = (int)resources.getDimension(R.dimen.canvas_height);
 		
 		
-//		if (sSurface == null) {
+		if (sSurface == null) {
 			Config config = Config.ARGB_4444;
 			
 			sSurface = Bitmap.createBitmap(canvasWidth, canvasHeight, config);
@@ -131,7 +131,7 @@ public class UpdateService extends Service {
 			
 			paint.setTextSize(dateFontSize);
 			
-//			paint.setARGB(0xff, 0xff, 0xff, 0xff);
+			paint.setARGB(0xff, 0xff, 0xff, 0xff);
 			
 			paint.setColor(0xff000000);
 			
@@ -172,7 +172,7 @@ public class UpdateService extends Service {
 				
 			}
 				
-//		}
+		}
 		
 		return sSurface;
 	}
